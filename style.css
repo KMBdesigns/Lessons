@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+
+    color: gray;
+    border-right: 1px solid gray;
+    margin-right: 1rem;
+    display: inline;
+}
+
+nav li a {
+    padding: 14px 16px;
+text-decoration: none; }
+    
+/* nav li {
+    display: inline;
+}
